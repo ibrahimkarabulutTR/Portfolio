@@ -1,0 +1,42 @@
+@media(max-width:1480px){
+    .wrapper{
+        padding:0 40px;
+    }
+}
+@media(max-width:1299px){
+    #about .content:before{display:none;}
+}
+@media (max-width:1104px){
+    #banner .content:before{display:none;}
+}
+@media(max-width:1025px){
+    #banner .wrapper{
+        padding-top:50px;
+    }
+    #banner h1, #banner p{text-align:center;}
+    #banner .go{margin:0 auto;}
+}
+@media(max-width:880px){
+    #go .conbox{flex:1 1 500px;}
+    #go .conbox:nth-child(2){
+        flex-direction: row-reverse;
+    }
+}
+@media(max-width:750px){
+	header #hamburger{display:block;}
+	header .wrapper .head-menu,
+    header .wrapper .contact{display:none;}
+}
+@media(max-width:500px){
+    .wrapper{
+        padding:0 20px;
+    }
+    #banner h1, #about h2{
+        font-size:40px;
+        line-height:45px;
+    }
+    #about .wrapper{
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+}
